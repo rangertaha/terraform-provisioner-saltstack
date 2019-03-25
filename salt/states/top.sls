@@ -1,0 +1,4 @@
+base:
+  '*':
+    - core
+    - tmux
