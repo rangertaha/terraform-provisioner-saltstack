@@ -1,6 +1,6 @@
 # Terraform SaltStack Provisioner 
 
-<img src="https://travis-ci.org/rangertaha/terraform-provisioner-saltstack.svg?branch=master" width="600px">
+<img src="https://travis-ci.org/rangertaha/terraform-provisioner-saltstack.svg?branch=master">
 
 
 This is an alternative SaltStack provisioner for Terraform
