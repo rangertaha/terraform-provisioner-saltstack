@@ -1,5 +1,8 @@
 # Terraform SaltStack Provisioner 
 
+<img src="https://travis-ci.org/rangertaha/terraform-provisioner-saltstack.svg?branch=master" width="600px">
+
+
 This is an alternative SaltStack provisioner for Terraform
 
 <img src="https://cdn.rawgit.com/hashicorp/terraform-website/master/content/source/assets/images/logo-hashicorp.svg" width="600px">
