@@ -1,5 +1,6 @@
 # Terraform SaltStack Provisioner 
 
+This is an alternative SaltStack provisioner for Terraform.
 
 <img src="https://cdn.rawgit.com/hashicorp/terraform-website/master/content/source/assets/images/logo-hashicorp.svg" width="600px">
 
@@ -36,7 +37,7 @@ required for the environment variables.
 az login
 ```
 
-Set environment variables with from following
+Set Terraform environment variables for the Azure provider
 
 ```bash
 cat << EOF >> ~/.profile
