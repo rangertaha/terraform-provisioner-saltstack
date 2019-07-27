@@ -2,6 +2,16 @@
 
 <img src="https://travis-ci.org/rangertaha/terraform-provisioner-saltstack.svg?branch=master"> <img src="https://snyk.io//test/github/rangertaha/terraform-provisioner-saltstack/badge.svg?targetFile=vendor/vendor.json">
 
+
+
+<a href="https://snyk.io//test/github/rangertaha/terraform-provisioner-saltstack?targetFile=vendor/vendor.json">
+
+<img src="https://snyk.io//test/github/rangertaha/terraform-provisioner-saltstack/badge.svg?targetFile=vendor/vendor.json" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io//test/github/rangertaha/terraform-provisioner-saltstack?targetFile=vendor/vendor.json" style="max-width:100%;">
+
+</a>
+
+
+
 This is an alternative SaltStack provisioner for Terraform
 
 <img src="https://cdn.rawgit.com/hashicorp/terraform-website/master/content/source/assets/images/logo-hashicorp.svg" width="600px">
