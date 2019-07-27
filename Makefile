@@ -22,7 +22,7 @@ hash: ## Output the md5 hash
 	$(md5 -qs $(PLUGIN_DIR)/windows_amd64/$(BINARY_NAME)_$(VERSION) || md5sum $(PLUGIN_DIR)/windows_amd64/$(BINARY_NAME)_$(VERSION))
 
 test: ## Run unit test
-	$(GOTEST) -v ./...
+	$(GOTEST) -v -race -coverprofile=coverage.txt -covermode=atomic ./...
 
 clean: ## Remove files created by the build
 	$(GOCLEAN)
