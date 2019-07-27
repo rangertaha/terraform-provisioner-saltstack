@@ -20,14 +20,26 @@ make build
 
 ## Example
 
+### Build 
+
+Build plugin
+
 ```bash
 make build
 ```
+
+
+### Login
+
+Login to Azure generating data required for the environment variables. 
 
 ```bash
 az login
 ```
 
+### Variables
+
+Set environment variables with from following
 
 ```bash
 cat << EOF >> ~/.profile
@@ -38,6 +50,9 @@ export TF_VAR_tenant_id=xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 EOF
 ```
 
+### Execute
+
+Execute Terraform to deploy the infrastructure. 
 
 ```bash
 cd examples/azure-vm
@@ -46,6 +61,7 @@ cd examples/azure-vm
 ```bash
 make deploy 
 ```
+
 ## Maintainers
 
 
