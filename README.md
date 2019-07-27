@@ -20,7 +20,7 @@ make build
 
 ### Example
 
-### Setup
+#### Setup
 
 Building the plugin also places a copy of  `.terraform` in the example project
 
