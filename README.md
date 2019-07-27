@@ -18,26 +18,23 @@ make build
  Copy the `.terraform` to your terraform project 
 
 
-## Example
+### Example
 
-### Build 
+### Setup
 
-Build plugin
+Building the plugin also places a copy of  `.terraform` in the example project
 
 ```bash
 make build
 ```
 
 
-### Login
-
-Login to Azure generating data required for the environment variables. 
+The Azure example requires us to run the az tool to login and view credentials 
+required for the environment variables. 
 
 ```bash
 az login
 ```
-
-### Variables
 
 Set environment variables with from following
 
@@ -50,7 +47,7 @@ export TF_VAR_tenant_id=xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 EOF
 ```
 
-### Execute
+#### Execute
 
 Execute Terraform to deploy the infrastructure. 
 
