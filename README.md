@@ -13,9 +13,39 @@
 ```bash
 make build
 ```
+ 
+ 
+ Copy the `.terraform` to your terraform project 
 
 
+## Example
 
+```bash
+make build
+```
+
+```bash
+az login
+```
+
+
+```bash
+cat << EOF >> ~/.profile
+export TF_VAR_subscription_id=xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+export TF_VAR_client_id=xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+export TF_VAR_client_secret=xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+export TF_VAR_tenant_id=xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+EOF
+```
+
+
+```bash
+cd examples/azure-vm
+```
+
+```bash
+make deploy 
+```
 ## Maintainers
 
 
