@@ -36,7 +36,8 @@ build: clean deps test ## Build the binaries for Windows, OSX, and Linux
 	env GOOS=darwin GOARCH=amd64 $(GOBUILD) -o $(PLUGIN_DIR)/darwin_amd64/$(BINARY_NAME)_$(VERSION) -v
 	env GOOS=linux GOARCH=amd64 $(GOBUILD) -o $(PLUGIN_DIR)/linux_amd64/$(BINARY_NAME)_$(VERSION) -v
 	env GOOS=windows GOARCH=amd64 $(GOBUILD) -o $(PLUGIN_DIR)/windows_amd64/$(BINARY_NAME)_$(VERSION).exe -v
-
+	mkdir -p examples/azure-vm/$(PLUGIN_DIR)
+	cp -r $(PLUGIN_DIR) examples/azure-vm/$(PLUGIN_DIR)
 
 
 
